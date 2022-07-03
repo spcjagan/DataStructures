@@ -13,6 +13,7 @@ public class patterns{
 
 
     static void pattern1(int n){
+        System.out.println("PATTERN 1");
 
         for(int row = 0; row < n;row++){
             for(int col = 0; col<=n;col++){
@@ -26,6 +27,7 @@ public class patterns{
 
  
     static void pattern2(int n){
+        System.out.println("PATTERN 2");
 
         for(int row = 0; row < n;row++){
             for(int col = 0; col<=row;col++){
@@ -37,6 +39,7 @@ public class patterns{
     }
       
     static void pattern3(int n){
+        System.out.println("PATTERN 3");
 
         for(int row = 0; row < n;row++){
             for(int col = 0; col<=n-row;col++){
@@ -49,6 +52,7 @@ public class patterns{
 
 
     static void pattern4(int n){
+        System.out.println("PATTERN 4");
         for(int row = 0; row < 2 * n;row++){
             int totalColumnsInRow = row > n ?  2 * n - row : row;
             for(int col = 0; col<totalColumnsInRow;col++){
@@ -60,6 +64,7 @@ public class patterns{
 
     
     static void pattern5(int n){
+        System.out.println("PATTERN 5");
         for(int row = 0; row < 2 * n;row++){
             int totalColumnsInRow = row > n ?  2 * n - row : row;
             int noOfSpaces = n - totalColumnsInRow;
@@ -77,6 +82,7 @@ public class patterns{
 
 
     static void pattern6(int n){
+        System.out.println("PATTERN 6");
         for(int row = 1; row <= 2 * n;row++){
             int totalColumnsInRow = row > n ?  2 * n - row+1: row;
             int noOfSpaces = n - totalColumnsInRow;
@@ -92,6 +98,7 @@ public class patterns{
     }
 
     static void pattern7(int n){
+        System.out.println("PATTERN 7");
 
         for(int row = 1; row <= n;row++){
             for(int space = 0;space< n - row;space++){
